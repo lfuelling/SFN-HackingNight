@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GradeCalc</string>
+    <string name="start">Convert</string>
+    <string name="zero">0</string>
+    <string name="grade_incorrect">Grade must be between 1 and 6!</string>
+    <string name="points_incorrect">Points must be between 0 and 15!</string>
+    <string name="mode1">Point To Grade</string>
+    <string name="mode2">Grade To Point</string>
+</resources>

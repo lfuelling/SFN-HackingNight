@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is the main Layout where we display the calculation results and get the data from.
+     We're referencing a value from strings.xml and some more from dimens.xml here. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- This is the input EditText element.  -->
+    <!-- TODO: implement an IME action for triggering the calculation. Remove the button afterwards. -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margin_elem"
+        android:layout_marginTop="@dimen/margin_elem"
+        />
+
+    <!-- This button triggers the calculation. -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margin_elem"
+        android:onClick="doCalculation"
+        /> <!-- Ignore the warning above, we implement this
+                method in the extending classes. -->
+
+    <!-- We display the result here. -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zero"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/text_large"
+        /> <!-- Notice the 'text_large' dimension value.
+                We can easily change the text size on the
+                whole application later if we want. -->
+
+
+</LinearLayout>
