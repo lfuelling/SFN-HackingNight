@@ -1,6 +1,6 @@
 # GradeCalc
 
-This is an Android application for calculation school grades into points used in german high schools. It was coded ~~in front of~~ together with guys from the SFN in Kassel.
+This is an Android application for calculating school grades into points used in german high schools. It was coded ~~in front of~~ together with guys from the SFN in Kassel.
 
 ## Prerequisites
 
